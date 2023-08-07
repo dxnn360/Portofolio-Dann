@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    margin: 0;
+    padding:0 ;
+    overflow-x: hidden;
+}
+#title {
+    font-family: 'Krona One', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #9A7197;
+}
+.nav-link{
+    transition: 0s ease;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+header{
+    background-color: #AFD2E9;
+}
+li{
+    list-style: none;
+}
+a{
+   color: #9A7197;
+   text-decoration: none;
+   font-family: 'Krona One', sans-serif; 
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    position: fixed;
+    width: 100%;
+    background-color: #AFD2E9;
+}
+.nav-menu{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.hero{
+    background-color: #AFD2E9;
+    width: 100%;
+    height: 720px;
+    padding-top: 8px;
+    background-image: url(assets/pattern.png);
+    background-position: left;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.picture{
+    float: left;
+    width: 40%;
+    padding: 140px;
+    padding-left: 140px;
+    
+}
+.picture img{
+    width: 480px;
+    padding-left: 50px;
+}
+.text{
+    float: right;
+    width: 60%;
+    align-items: center;
+    padding-top: 270px;
+    padding-left: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+h1{
+    color: #9A7197;
+}
+h2{
+    color: #9A7197;
+    margin-top: -17px;
+    font-size: 150%;
+    font-family: 'Krona One', sans-serif;
+}
+p{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #9A7197;
+    font-size: 80%;
+}
+
+#start{
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    box-shadow: 0, 0, 0 ,0.2;
+    overflow: hidden;
+    color: #9A7197;
+    
+}
+#start:hover{
+    background-color: #9A7197;
+    color: #ffffff;
+    
+}
+
+#about{
+    background-color: #9A7197;
+    width: 100%;
+    height: 700px;
+    margin-top:-2px; 
+    background-image: url(assets/pattern2.png);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-position-y: 500px; ;
+}
+
+
+.second{
+    padding-left: 250px;
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    text-align: right;
+    margin-top: 40px;
+
+}
+.myself{
+    float: right;
+    width:40% ;
+    margin-right:80px ;
+    padding-left: 0px;
+    margin-top: 40px;
+}
+.myself img{
+    box-shadow: inset
+}
+.second p{
+    margin-top: 10px;
+    text-align: right;
+    color: #ffffff;
+}
+.second h2{
+    color: #ffffff;
+    font-size: 250%;
+}
+#portofolio{
+
+    margin-top: 0px;
+    background-color: #AFD2E9;
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+
+}
+#portofolio h2{
+    margin: 0;
+    padding-top: 80px;
+    font-size: 250%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #d9d9d9;
+    height: 300px;
+    padding-right: 427px;
+    padding-left: 454px;
+    margin-top: 50px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.195);
+    background-image: url(assets/pattern.png);
+    background-size: 220px;
+    background-repeat: repeat-y;
+}
+.image img{
+    width: 300px;
+}
+.image{
+    width: 100%;
+
+}
+.caption{
+    float: right;
+    width: 0%;
+    margin-top: 140px;
+    text-align: left;
+    font-family: 'Krona One', sans-serif;
+    font-size: 150%;
+    color: #9A7197;
+}
+.three{
+    height: 210px;
+}
+.tiga{
+    margin-top: 105px;
+}
+
+#education{
+    background-color: #9A7197;
+    color: #d9d9d9;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#education h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 5px;
+}
+.edu-content{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 1px 0 55px;
+    border-radius: 15px;
+    box-shadow: (0 15px 5px rgba(255, 255, 255, 0.91));
+}
+.edu-content img{
+    width: 100px;
+    margin-top: 25px;
+}
+.educate{
+    padding-bottom: 20px;
+}
+.educate h3{
+    font-family: 'Krona One', sans-serif;
+    color: #9A7197;
+}
+.educate p{
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 0;
+    background-color: #AFD2E9;
+    color: #9A7197;
+}
+#campus h3{
+    font-family: 'Krona One', sans-serif;
+    padding-bottom: 55px;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 205px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+aside{
+    background-color: #AFD2E9;
+    padding: 50px 0;
+    box-shadow: rgba(0, 0, 0, 0.195);
+}
+.aside{
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    margin: 80px auto;
+    width: 80%;
+}
+
+.aside img{
+    width: 250px;
+}
+.aside figcaption{
+    font-family: 'Krona One', sans-serif;
+    padding-bottom: 25px;
+    font-size: 150%;
+}
+.aside p{
+    font-family: 'Krona One', sans-serif;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#campus{
+    background-color: #9A7197;
+    height: auto;
+    text-align: center;
+    height: 550px;
+    margin-top: -20px;
+}
+
+footer{
+    background-color: #AFD2E9;
+    max-width: 100%;
+    height: 70px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    color: #9A7197;
+}
+
+
+@media screen and (max-width:1170px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+    .hero{
+        padding-top: 90px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #AFD2E9;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        right: 0;
+        margin-top: 0;
+    }
+    .picture{
+        float: none;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .text{
+        float: none;
+        width: 100%;
+        padding: 0;
+        text-align: center
+    }
+    .second{
+        padding-top: 20px;
+    }
+    .second p{
+        padding: 0;
+        padding-top:10px;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .myself{
+        margin-top: -30px;
+    }
+    .myself img{
+        padding-top: 110px;
+    }
+    #about{
+        margin-top: -30px;
+        background-position-y: 25px;
+        background-size:30px ;
+        height: 800px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #d9d9d9;
+        height: 320px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 50px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.195);
+        background-image: url(assets/pattern.png);
+        background-size: 220px;
+        background-repeat: repeat-y;
+    }
+    .image img{
+        width: 250px;
+        padding-top: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    .caption{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+        font-size: 100%;
+        color: #9A7197;
+        background-color: white;
+    }
+    .three{
+        height: 240px;
+    }
+    #education{
+    width: 100%;
+    }
+    .edu-content{
+        margin: 0 1px 0 96px;
+    }
+    iframe{
+        padding-top: 15px;
+    }
+    #campus{
+        float: right;
+        width: 100%;
+    }
+    #education{
+        width: 100%;
+    }
+    #campus h3{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .aside{
+        background-color: #fff;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 180px;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    
+    
+}
+@media screen and (max-width:800px) {
+    .card{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #d9d9d9;
+        height: 320px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 50px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.195);
+        background-image: url(assets/pattern.png);
+        background-size: 220px;
+        background-repeat: repeat-y;
+    }
+    .hero{
+        padding-top: 120px;
+    }
+    .image img{
+        width: 250px;
+        padding-top: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    .caption{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+        font-size: 100%;
+        color: #9A7197;
+        background-color: white;
+    }
+    .three{
+        height: 240px;
+    }
+    .tiga{
+        margin-top: 5px;
+    }
+    #portofolio h2{
+        margin: 0;
+        padding-top: 80px;
+        font-size: 180%;
+    }
+    .picture {
+        float: none;
+        width: 100%;
+        padding: 0;
+        padding-right: 41px;
+        text-align: center
+    }
+    .picture img{
+        width: 320px;
+    }
+    #about{
+        margin-top: -30px;
+        background-position-y: 25px;
+        background-size:30px ;
+        height: 700px;
+    }
+    .edu-content {
+        margin: 0 1px 0 40px;
+    }
+    iframe{
+        max-width: fit-content;
+    }
+
+}
